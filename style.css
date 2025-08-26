@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Times new roman, sans-serif;
+}
+
+body {
+  
+  background-color: rgb(133,121,90);
+  color:black;
+  text-align: center;
+}
+.side {
+      width: 200px;
+      padding: 10px;
+	   display: flex;
+	  flex-direction: column;
+	  gap:60px;
+    }
+ .side img {
+      width: 450%;
+      margin-bottom: 10px;
+}
+.index{
+	text-align: right;
+}
+.number{
+	  width: 700px;
+      padding: 10px;
+	   
+    }
+.number img {
+      width: 150%;
+      margin-bottom: 10px;
+	  display: flex;
+	  flex-direction: row;
+	 
+}
+	
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+header {
+  background:rgb(137,147,179);
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  flex-direction:column;
+  width: 890px;
+}
+
+header h1 {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color:#fff;
+  text-decoration:none;
+}
+
+.hero {
+  background: rgb(51,50,45)no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 0;
+  text-align: right-side;
+  
+
+}
+.sidebar {
+      width: 200px;
+      padding: 10px;
+	   display: flex;
+	  flex-direction: row;
+	  gap:60px;
+    }
+
+    .sidebar img {
+      width: 200%;
+      margin-bottom: 10px;
+     
+	  
+    }
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.service {
+  flex: 1;
+  background:pink;
+  padding: 5.5px;
+  border-radius: 6px;
+}
+.services {
+	text-align: center;
+}
+
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  margin-bottom: 34px;
+  padding: 9px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  padding: 10px;
+  background: rgb(181,78,89);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: rgb(13,31,22);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    float: none;
+    text-align: center;
+    margin-top: 1px;
+  }
+
+  .services {
+    flex-direction: column;
+  }
+}
